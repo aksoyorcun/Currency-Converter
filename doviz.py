@@ -42,6 +42,7 @@ class Ui_Form(object):
         Form.setObjectName("Form")
         
         Form.resize(565, 515)
+        Form.setFixedSize(565,515)
         self.horizontalLayoutWidget_2 = QtWidgets.QWidget(Form)
         self.horizontalLayoutWidget_2.setGeometry(QtCore.QRect(10, 430, 541, 80))
         self.horizontalLayoutWidget_2.setObjectName("horizontalLayoutWidget_2")
